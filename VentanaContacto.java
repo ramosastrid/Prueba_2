@@ -119,10 +119,8 @@ public class VentanaContacto extends javax.swing.JFrame {
    
    Contacto c = new Contacto(txt_Nombre.getText(), txt_Numero.getText());
     
-   // lbl_Resultado.setText("Resultado:" + "Nombre: " + c.getNombre() + " | Teléfono: " + c.getNumeroTelefono());
+   
    lbl_Resultado.setText("Resultado: "  + c.getNombre() + " | " + c.getNumeroTelefono());
-   // lbl_Resultado.setText("Nombre: " + txt_Nombre.getText() + " | Teléfono: " + txt_Numero.getText());
-    }//GEN-LAST:event_btn_ProcesarInformacionActionPerformed
 
     /**
      * @param args the command line arguments
